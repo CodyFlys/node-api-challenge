@@ -39,14 +39,19 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
+    middleware and express router also server.use json
 
 - [ ] Describe Middleware?
+functions that can be passed into routers to use things in the middleware we write like certain errors or many other uses. it's "Middle"ware. it can also be used in the future for helping with authentication checking maybe?
 
 - [ ] Describe a Resource?
+data contained inside of our api'/s database i believe.
 
 - [ ] What can the API return to help clients know if a request was successful?
+res status code 200
 
 - [ ] How can we partition our application into sub-applications?
+with routers?
 
 ## Minimum Viable Product
 
